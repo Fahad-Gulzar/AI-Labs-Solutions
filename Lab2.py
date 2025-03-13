@@ -189,3 +189,5 @@ class Person :
 
 per1 = Person ( "Fahad", 19 )                           # here this.name = per1.name also this.age = per1.age
 per1.personName ()
+
+print ( "ok" )
