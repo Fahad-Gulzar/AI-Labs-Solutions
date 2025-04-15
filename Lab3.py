@@ -27,8 +27,11 @@
 # Ques: 03
 
 import random
-print ( "Guess The Number Game" )
+print ( "Guess The Number Between 1 and 10 Game" )
 while True :
     prompt_value= int( input ( "Enter Your Guessed Value: " ) )
     if prompt_value == random.randrange( 1 , 10 ) :
-        
+        print ( "You Won" )
+        break
+    else : 
+        print( "Try Again" )
