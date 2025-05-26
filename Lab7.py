@@ -1,12 +1,19 @@
 # Define the tree as an adjacency list
 graph = {
-    'A': ['B', 'C'],
-    'B': ['D', 'E'],
-    'C': ['F'],
-    'D': [],
-    'E': ['G'],
+    'A': ['B', 'F', 'D', 'E'],
+    'B': ['K', 'J'],
+    'C': [],
+    'D': ['G'],
+    'E': ['C', 'H', 'I'],
     'F': [],
-    'G': []
+    'G': [],
+    'H': [],
+    'I': ['L'],
+    'J': [],
+    'K': ['N', 'M'],
+    'L': [],
+    'M': [],
+    'N': [],
 }
 
 # Depth Limited Search (DLS)
